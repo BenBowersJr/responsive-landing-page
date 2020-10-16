@@ -18,7 +18,7 @@ header {
   text-align: center;
   position: fixed;
   top: -1;
-  background-color: #d6ecfa;
+  background-color: #d8dfe2;
 }
 header img {
   margin: .7em .7em;
@@ -31,7 +31,7 @@ dl a {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #d6ecfa;
+  background-color: #d8dfe2;
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -137,7 +137,7 @@ footer a {
     margin-top: 15vh;
   }
 }
-/* Tablet Styles*/
+/* Tablet/Desktop Styles */
 @media only screen and (min-width: 751px){
   header {
     flex-direction: row;
@@ -169,7 +169,4 @@ footer a {
   #first-header {
     margin-top: 10vh;
   }
-}
-/* Desktop Styles*/
-@media only screen and (min-width: 901px) {
 }
